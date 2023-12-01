@@ -7,7 +7,7 @@ This app is used to send joystick input events to SyncControlServer.
 An in-depth paragraph about your project and overview of use.
 
 ## Flow
-![Flow](https://github.com/GitAlison/SyncControlApp/sync_control_flow.png)
+![Flow](https://github.com/GitAlison/SyncControlApp/blob/main/sync_control_flow.png)
 
 ## Getting Started
 
