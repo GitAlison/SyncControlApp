@@ -59,7 +59,7 @@
             android:layout_height="wrap_content" />
 
         <Space
-            android:layout_width="567dp"
+            android:layout_width="match_parent"
             android:layout_height="37dp" />
 
         <EditText
