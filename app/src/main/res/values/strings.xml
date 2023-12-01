@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SyncControl</string>
+    <string name="btn_save_config">Save and Start</string>
+</resources>
