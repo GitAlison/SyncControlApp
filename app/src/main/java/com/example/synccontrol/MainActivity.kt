@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+        window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
+
         vtvLogButton = findViewById<TextView>(R.id.tv_log_button);
         deviceId = findViewById<EditText>(R.id.editTextDeviceCode)
         textViewConnectionStatus = findViewById<TextView>(R.id.textViewConnectionStatus)

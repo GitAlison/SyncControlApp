@@ -14,15 +14,32 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <TextView
-            android:id="@+id/tv_appName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textAlignment="center"
-            android:textSize="20pt"
-            android:textColor="@color/blue"
-            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="191dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="142dp"
+                android:layout_height="118dp"
+                android:layout_weight="0"
+                android:scaleType="centerCrop"
+                android:scaleX="1.3"
+                android:scaleY="1.3"
+                android:src="@mipmap/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/tv_appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20pt"
+                android:textStyle="bold" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textViewConnectionStatus"
@@ -51,9 +68,10 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Server Device Host 192.168.1.2:9999"
+            android:inputType="text"
+            android:minHeight="48dp"
             android:textColor="@color/blue"
             android:textColorHint="@color/blue"
-            android:inputType="text"
             android:textSize="9pt" />
 
         <Button
