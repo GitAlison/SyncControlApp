@@ -13,7 +13,8 @@ An in-depth paragraph about your project and overview of use.
 
 ### Dependencies
 
-* Sync Control Server
+* [Sync Control Server](https://github.com/GitAlison/SyncControlServer)
+
 
 ### Installing
 
